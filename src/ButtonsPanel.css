@@ -1,0 +1,43 @@
+.buttons-panel {
+  margin: 30px 0;
+}
+
+.buttons-panel .btn {
+  padding: 10px 20px;
+  margin: 0 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  border: 3px solid #fff;
+  transition: color .3s, background-color .3s;
+}
+
+.buttons-panel .btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.buttons-panel .red {
+  background-color: red;
+}
+
+.buttons-panel .green {
+  background-color: green;
+}
+
+.buttons-panel .blue {
+  background-color: blue;
+}
+
+.buttons-panel .btn:hover.red {
+  color: red;
+}
+
+.buttons-panel .btn:hover.green {
+  color: green;
+}
+
+.buttons-panel .btn:hover.blue {
+  color: blue;
+}
