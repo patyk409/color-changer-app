@@ -1,6 +1,22 @@
 .sentence p {
   font-size: 30px;
-  color: #fff;
   font-weight: bold;
   text-transform: capitalize;
+  transition: color .3s;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
 }

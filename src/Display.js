@@ -4,7 +4,7 @@ import './Display.css';
 const Display = props => {
   return (
     <div className="sentence">
-      <p>click the button to change color of this sentence</p>
+      <p className={props.displayColor}>click the button to change color of this sentence</p>
     </div>
   );
 };
